@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Propinas</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Propinas</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Calculadora</a>
+        </nav>
+    </header>
+    <form id="tip">
+        <label for="amt">Importe total de la factura:</label>
+        <input type="number" id="amt" required><br><br>
+
+        <label for="tipper">Porcentaje de propina:</label>
+        <input type="number" id="tipper" required><br><br>
+
+        <button type="button" onclick="calculateTip()">Calcular</button>
+    </form>
+    <h2>Resultado de la propina:</h2>
+    <p id="tipRes"></p>
+
+    <script src="js.js"></script>
+
+    <footer>
+        <h5>All rights reserved by kyle hyde &copy;</h4>
+    </footer>
+</body>
+</html>

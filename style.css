@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(img/fire3.webp);
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 6px;
+}
+
+header h1{
+    text-align: center;
+}
+
+header nav {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 16%;
+}
+
+a:hover {
+    background-color: rgba(24, 24, 24, 0.692);
+}
+
+form {
+    text-align: center;
+    margin-top: 150px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    background-color: rgba(0, 0, 0, 0.596);
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: rgba(20, 20, 20, 0.644);
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 150px;
+    margin-left: 44%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.781);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
